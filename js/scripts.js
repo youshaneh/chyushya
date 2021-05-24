@@ -175,14 +175,12 @@
     disableScrolling: true
   })
 
-  var itemSwipers = [];
+  let itemSwipers = [];
   document.querySelectorAll('.popup-with-move-anim').forEach(element => {
     element.addEventListener('click', e => {
-      if (itemSwipers[element] == null) {
-        itemSwipers[element] = new Splide(`#${element.getAttribute('data-target')} .splide`);
-        itemSwipers[element].mount();
-        itemSwipers[element].root.querySelector('.splide__list').style = '';
-      }
+      itemSwipers[element] = new Splide(`#${element.getAttribute('data-target')} .splide`);
+      itemSwipers[element].mount();
+      itemSwipers[element].root.querySelector('.splide__list').style = '';
     })
   })
 })(jQuery);

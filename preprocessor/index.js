@@ -6,19 +6,21 @@ var sharp = require('sharp');
 function handleServiceImages() {
   const itemsDirectory = path.join(__dirname, '../images', 'items')
   const rawItemsRootDirectory = path.join(itemsDirectory, 'raw')
-  const items = ['indoor-led', 'outdoor-led', 'style-truss', 'structure-truss',
-    'roof', 'lcd', 'projector', 'player'];
+  const items = ['indoor-led', 'outdoor-led', 'truss', 'roof',
+    'lcd', 'projector', 'player', 'touch-tv'];
   const itemWidth = 623;
   const itemThumbnailWidth = 277;
+  fs.rmdirSync(path.join(itemsDirectory, "out"), { recursive: true });
+  fs.mkdirSync(path.join(itemsDirectory, "out"));
   items.forEach(item => {
     const rawItemDirectory = path.join(rawItemsRootDirectory, item);
     const targetDirectory = path.join(itemsDirectory, "out", item);
-    fs.rmdirSync(targetDirectory, { recursive: true });
     fs.mkdirSync(targetDirectory);
     const itemPics = fs.readdirSync(rawItemDirectory);
     const thumbnailIndex = itemPics.findIndex(e => e == 'thumbnail.jpg');
-    itemPics[thumbnailIndex] = itemPics[0];
-    itemPics[0] = 'thumbnail.jpg';
+    itemPics.splice(thumbnailIndex, 1);
+    itemPics.sort();
+    itemPics.splice(0, 0, 'thumbnail.jpg');
 
     let picNameIndex = 1;
     itemPics.forEach(itemPic => {
@@ -37,14 +39,16 @@ function handleServiceImages() {
             if (err) throw err;
           });
       }
-      sharp(imagePath)
-        .extract({ top, left, width: shorterSideLength, height: shorterSideLength })
-        .resize(itemWidth, itemWidth)
-        .sharpen()
-        .toFile(path.join(targetDirectory, `pic-${picNameIndex}.jpg`), function (err) {
-          if (err) throw err;
-        });
-      picNameIndex++;
+      else{
+        sharp(imagePath)
+          .extract({ top, left, width: shorterSideLength, height: shorterSideLength })
+          .resize(itemWidth, itemWidth)
+          .sharpen()
+          .toFile(path.join(targetDirectory, `pic-${picNameIndex}.jpg`), function (err) {
+            if (err) throw err;
+          });
+        picNameIndex++;
+      }
     });
   })
 }
