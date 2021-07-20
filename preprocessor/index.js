@@ -58,8 +58,8 @@ function handleShowcaseImages() {
   const rawPicRootDirectory = path.join(showcasesDirectory, 'raw')
   const showcases = fs.readdirSync(rawPicRootDirectory);
   showcases.forEach(showcase => {
-    const thunbnailWidth = 200;
-    const thunbnailHeight = 177;
+    const thunbnailWidth = 240;
+    const thunbnailHeight = 279;
     const maxHeight = 849;
     const maxWidth = 1183;
     const rawPicDirectory = path.join(rawPicRootDirectory, showcase);

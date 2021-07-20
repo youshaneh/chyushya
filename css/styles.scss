@@ -2658,21 +2658,25 @@ a.back-to-top.show {
   .hexagon-mask-wrapper {
     width: fit-content;
     background-position: center center;
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
 
     &:hover {
-      background-size: 115% auto;
+      background-size: auto 115%;
     }
 
     img {
       margin: -1px -2px;
-      width: 200px;
+      width: 240px;
       // filter: invert(99%) sepia(95%) saturate(33%) hue-rotate(192deg) brightness(121%) contrast(97%);
       filter: invert(100%);
     }
   }
+}
+
+.slider .swiper-button-prev, .slider .swiper-button-next{
+  margin-top: -64px;
 }
 
 .gallery-container {

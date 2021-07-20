@@ -1959,8 +1959,6 @@ a.back-to-top.show {
   }
   .filter .element-item .element-item-overlay {
     opacity: 0;
-    -webkit-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease;
   }
   /* end of projects */
   /* About */
@@ -2484,21 +2482,25 @@ a.back-to-top.show {
   width: -moz-fit-content;
   width: fit-content;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 .campaign .hexagon-mask-wrapper:hover {
-  background-size: 115% auto;
+  background-size: auto 115%;
 }
 
 .campaign .hexagon-mask-wrapper img {
   margin: -1px -2px;
-  width: 200px;
+  width: 240px;
   -webkit-filter: invert(100%);
           filter: invert(100%);
+}
+
+.slider .swiper-button-prev, .slider .swiper-button-next {
+  margin-top: -64px;
 }
 
 .gallery-container .p-heading {
