@@ -1,0 +1,357 @@
+
+    <a class="swiper-slide" data-lightbox="s0" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s0/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">Aston Martin 奧斯汀賽道體驗</div>
+          <div class="testimonial-text">活動硬體執行</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s0/pic-1.jpg" data-lightbox="s0"></a>
+      
+    <a class="swiper-slide" data-lightbox="s1" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s1/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">McLaren 麥拉倫賽道體驗</div>
+          <div class="testimonial-text">活動硬體執行</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s1/pic-1.jpg" data-lightbox="s1"></a>
+      
+    <a class="swiper-slide" data-lightbox="s2" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s2/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">中華電信. 展示區</div>
+          <div class="testimonial-text">造型Truss 頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s2/pic-1.jpg" data-lightbox="s2"></a>
+      
+    <a class="swiper-slide" data-lightbox="s3" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s3/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">中鋼鋁業動土典禮</div>
+          <div class="testimonial-text">大型頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s3/pic-1.jpg" data-lightbox="s3"></a>
+      
+    <a class="swiper-slide" data-lightbox="s4" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s4/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">保時捷賽道體驗</div>
+          <div class="testimonial-text">活動硬體執行</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s4/pic-1.jpg" data-lightbox="s4"></a>
+      
+    <a class="swiper-slide" data-lightbox="s5" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s5/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">台北客家義民祭</div>
+          <div class="testimonial-text">造型Truss 頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s5/pic-1.jpg" data-lightbox="s5"></a>
+      
+      <a href="images/showcases/out/s5/pic-2.jpg" data-lightbox="s5"></a>
+      
+    <a class="swiper-slide" data-lightbox="s6" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s6/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">台東大橋通車典禮</div>
+          <div class="testimonial-text">大型頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s6/pic-1.jpg" data-lightbox="s6"></a>
+      
+    <a class="swiper-slide" data-lightbox="s7" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s7/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">台積電晶圓廠動土典禮</div>
+          <div class="testimonial-text">大型頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s7/pic-1.jpg" data-lightbox="s7"></a>
+      
+      <a href="images/showcases/out/s7/pic-2.jpg" data-lightbox="s7"></a>
+      
+      <a href="images/showcases/out/s7/pic-3.jpg" data-lightbox="s7"></a>
+      
+    <a class="swiper-slide" data-lightbox="s8" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s8/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">台積電運動園遊會</div>
+          <div class="testimonial-text">視訊、頂棚結構</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s8/pic-1.jpg" data-lightbox="s8"></a>
+      
+    <a class="swiper-slide" data-lightbox="s9" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s9/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">墾丁春浪音樂節</div>
+          <div class="testimonial-text">活動硬體執行</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s9/pic-1.jpg" data-lightbox="s9"></a>
+      
+      <a href="images/showcases/out/s9/pic-2.jpg" data-lightbox="s9"></a>
+      
+      <a href="images/showcases/out/s9/pic-3.jpg" data-lightbox="s9"></a>
+      
+    <a class="swiper-slide" data-lightbox="s10" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s10/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">奧迪極限體驗營</div>
+          <div class="testimonial-text">大型Truss 看板</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s10/pic-1.jpg" data-lightbox="s10"></a>
+      
+      <a href="images/showcases/out/s10/pic-2.jpg" data-lightbox="s10"></a>
+      
+    <a class="swiper-slide" data-lightbox="s11" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s11/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">安麗. 卓越全球團員大會</div>
+          <div class="testimonial-text">大畫面無接縫投影</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s11/pic-1.jpg" data-lightbox="s11"></a>
+      
+      <a href="images/showcases/out/s11/pic-2.jpg" data-lightbox="s11"></a>
+      
+    <a class="swiper-slide" data-lightbox="s12" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s12/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">宏佳騰. 金氏世界紀錄遊行</div>
+          <div class="testimonial-text">Truss 牌樓</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s12/pic-1.jpg" data-lightbox="s12"></a>
+      
+    <a class="swiper-slide" data-lightbox="s13" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s13/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">屏東跨年</div>
+          <div class="testimonial-text">視訊、頂棚結構</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s13/pic-1.jpg" data-lightbox="s13"></a>
+      
+    <a class="swiper-slide" data-lightbox="s14" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s14/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">新北燈會</div>
+          <div class="testimonial-text">活動硬體執行</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s14/pic-1.jpg" data-lightbox="s14"></a>
+      
+    <a class="swiper-slide" data-lightbox="s15" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s15/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">法拉利體驗活動</div>
+          <div class="testimonial-text">活動硬體執行</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s15/pic-1.jpg" data-lightbox="s15"></a>
+      
+    <a class="swiper-slide" data-lightbox="s16" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s16/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">洲際酒店開幕剪綵儀式</div>
+          <div class="testimonial-text">活動硬體執行</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s16/pic-1.jpg" data-lightbox="s16"></a>
+      
+      <a href="images/showcases/out/s16/pic-2.jpg" data-lightbox="s16"></a>
+      
+      <a href="images/showcases/out/s16/pic-3.jpg" data-lightbox="s16"></a>
+      
+    <a class="swiper-slide" data-lightbox="s17" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s17/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">海巡署. 海安六號演習</div>
+          <div class="testimonial-text">大型頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s17/pic-1.jpg" data-lightbox="s17"></a>
+      
+      <a href="images/showcases/out/s17/pic-2.jpg" data-lightbox="s17"></a>
+      
+      <a href="images/showcases/out/s17/pic-3.jpg" data-lightbox="s17"></a>
+      
+    <a class="swiper-slide" data-lightbox="s18" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s18/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">王功漁火節</div>
+          <div class="testimonial-text">活動硬體執行</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s18/pic-1.jpg" data-lightbox="s18"></a>
+      
+    <a class="swiper-slide" data-lightbox="s19" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s19/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">甲仙大橋通車典禮</div>
+          <div class="testimonial-text">大型頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s19/pic-1.jpg" data-lightbox="s19"></a>
+      
+    <a class="swiper-slide" data-lightbox="s20" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s20/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">空軍接機典禮</div>
+          <div class="testimonial-text">大型頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s20/pic-1.jpg" data-lightbox="s20"></a>
+      
+    <a class="swiper-slide" data-lightbox="s21" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s21/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">高雄燈會</div>
+          <div class="testimonial-text">戶外型LED、造型頂棚</div>
+        </div>
+      </div>
+    </a>
+      <a href="images/showcases/out/s21/pic-1.jpg" data-lightbox="s21"></a>
+      
+      <a href="images/showcases/out/s21/pic-2.jpg" data-lightbox="s21"></a>
+      
+      <a href="images/showcases/out/s21/pic-3.jpg" data-lightbox="s21"></a>
+      

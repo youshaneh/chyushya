@@ -39,7 +39,7 @@ function handleServiceImages() {
             if (err) throw err;
           });
       }
-      else{
+      else {
         sharp(imagePath)
           .extract({ top, left, width: shorterSideLength, height: shorterSideLength })
           .resize(itemWidth, itemWidth)
@@ -57,21 +57,46 @@ function handleShowcaseImages() {
   const showcasesDirectory = path.join(__dirname, '../images', 'showcases')
   const rawPicRootDirectory = path.join(showcasesDirectory, 'raw')
   const showcases = fs.readdirSync(rawPicRootDirectory);
-  showcases.forEach(showcase => {
+  let showcaseHtml = '';
+  showcases.forEach((showcase, index) => {
     const thunbnailWidth = 240;
     const thunbnailHeight = 279;
     const maxHeight = 849;
     const maxWidth = 1183;
     const rawPicDirectory = path.join(rawPicRootDirectory, showcase);
-    const targetDirectory = path.join(showcasesDirectory, "out", showcase);
+    const targetDirectory = path.join(showcasesDirectory, "out", `s${index}`);
     fs.rmdirSync(targetDirectory, { recursive: true });
     fs.mkdirSync(targetDirectory);
     const picNames = fs.readdirSync(rawPicDirectory)
-    const thumbnailIndex = picNames.findIndex(e => e == 'thumbnail.jpg');
+    let thumbnailIndex = picNames.findIndex(e => e == 'thumbnail.jpg');
+    if (thumbnailIndex < 0) {
+      thumbnailIndex = 0;
+      fs.renameSync(path.join(rawPicDirectory, picNames[0]), path.join(rawPicDirectory, 'thumbnail.jpg'))
+    }
     picNames[thumbnailIndex] = picNames[0];
     picNames[0] = 'thumbnail.jpg';
     let picNameIndex = 1;
-    picNames.forEach(picName => {
+
+
+
+    const detail = showcase.split('／');
+    let html = `
+    <a class="swiper-slide" data-lightbox="s${index}" data-exclude-from-lightbox>
+      <div class="card">
+        <div class="campaign">
+          <div class="image-wrapper hexagon-mask-wrapper"
+            style="background-image: url('images/showcases/out/s${index}/thumbnail.jpg');">
+            <img class="hexagon-mask" src="images/hexagon_mask.png" alt="經典案例">
+          </div>
+          <br />
+          <div class="testimonial-author">${detail[0]}</div>
+          <div class="testimonial-text">${detail[1]}</div>
+        </div>
+      </div>
+    </a>`
+
+
+    picNames.forEach((picName) => {
       let targetName = `pic-${picNameIndex++}`;
       const imagePath = path.join(rawPicDirectory, picName);
       var dimensions = sizeOf(imagePath);
@@ -116,8 +141,18 @@ function handleShowcaseImages() {
         .toFile(path.join(targetDirectory, `${targetName}.jpg`), function (err) {
           if (err) throw err;
         });
+
+
+      html += `
+      <a href="images/showcases/out/s${index}/${targetName}.jpg" data-lightbox="s${index}"></a>
+      `
     })
+
+    console.log(`add ${showcase} html`)
+    showcaseHtml += html;
   });
+  
+  fs.writeFileSync(path.join(showcasesDirectory, "out", 'showcaseHtml.txt'), showcaseHtml)
 }
 
 function handleGalleryImages() {
@@ -173,5 +208,5 @@ function handleGalleryImages() {
 
 handleServiceImages();
 handleShowcaseImages();
-handleGalleryImages();
+// handleGalleryImages();
 console.log('Remeber to update the picture count in html');
