@@ -56,8 +56,9 @@ function handleServiceImages() {
 function handleShowcaseImages() {
   const showcasesDirectory = path.join(__dirname, '../images', 'showcases')
   const rawPicRootDirectory = path.join(showcasesDirectory, 'raw')
-  const showcases = fs.readdirSync(rawPicRootDirectory);
+  let showcases = fs.readdirSync(rawPicRootDirectory);
   let showcaseHtml = '';
+
   showcases.forEach((showcase, index) => {
     const thunbnailWidth = 240;
     const thunbnailHeight = 279;
@@ -123,18 +124,19 @@ function handleShowcaseImages() {
 
       let newWidth = width;
       let newHeight = height;
-      if (newWidth > maxWidth) {
+      if (newWidth > newWidth) {
         ratio = maxWidth / width;
         newWidth *= ratio;
         newHeight *= ratio;
       }
       if (newHeight > maxHeight) {
-        ratio = maxHeight / height;
+        ratio = maxHeight / newHeight;
         newWidth *= ratio;
         newHeight *= ratio;
       }
       newWidth = Math.floor(newWidth);
       newHeight = Math.floor(newHeight);
+
       sharp(imagePath)
         .resize(newWidth, newHeight)
         .sharpen()
@@ -144,11 +146,9 @@ function handleShowcaseImages() {
 
 
       html += `
-      <a href="images/showcases/out/s${index}/${targetName}.jpg" data-lightbox="s${index}"></a>
-      `
+    <a href="images/showcases/out/s${index}/${targetName}.jpg" data-lightbox="s${index}"></a>`
     })
 
-    console.log(`add ${showcase} html`)
     showcaseHtml += html;
   });
   
