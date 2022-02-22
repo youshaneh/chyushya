@@ -1,0 +1,5 @@
+<svg class="border" width="200" height="212" viewBox="0 0 200 212">
+  <path fill="white"
+      d="M0,0 L0,212 L200,212 L200,0 z
+         M100,0 L200,50 L200,162 L100,212 L0,162 L0,50 z"/>
+</svg>
